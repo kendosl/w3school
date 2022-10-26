@@ -7,6 +7,35 @@
     <title>HTML Images</title>
 </head>
 <body>
-    
+    <!-- syntax 
+        <img src="url" alt="alternatetext">
+    -->
+
+    <!-- Image Size -->
+    <img src="image_1.jpg" alt="Girl in a jacket" style="width: 100px; height: 100px">
+    <br>
+    <img src="imgi_1.jpg" alt="alternatetext" width="250" height="125">
+    <br>
+    <p>
+        <img src="smiley.gif" alt="alternatetext" style="float: right; width: 150px; height: 200px">
+        The image will float to the right of the text.
+    </p>
+
+    <!-- Image map -->
+    <p>
+        <img src="/computer.jpg" alt="image map" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" href="computer.html" alt="Computer" onclick="myFunction()">
+            <area shape="rect" coords="290,172,333,250" href="phone.html" alt="Phone">
+            <area shape="circle" coords="337,300,44" href="coffee.html" alt="Coffee">
+        </map>
+    </p>
+
+    <script>
+        function myFunction() {
+            alert("You clicked the computer!")
+        }
+    </script>
+
 </body>
 </html>
