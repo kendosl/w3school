@@ -1,0 +1,13 @@
+/* Style the element with the id header_1 */
+#header_1 {
+    background-color: lightcyan;
+    color: tomato;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style all elements with the class name "capital" */
+.capital {
+    color: red;
+    font-size: 120%;
+}
