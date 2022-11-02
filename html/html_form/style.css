@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-size: 14px;
+}
+
+form {
+    margin: 10px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px;
+}
