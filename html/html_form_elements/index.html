@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Elements</title>
+</head>
+<body>
+    <h2>The < input > element </h2>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+
+
+    <h2>The < select > element </h2>
+    <label for="cars"> Choose a car: </label>
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="fiat" selected>Fiat</option>
+    </select>
+
+    <h2>Visible values</h2>
+    <label for="cars"> Choose a car: </label>
+    <select name="cars" id="cars" size="3">
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="fiat" selected>Fiat</option>
+        <option value="mecedec">Mecedec</option>
+        <option value="toyota">Toyota</option>
+    </select>
+
+    <h2>Multiple Selections</h2>
+    <label for="cars"> Choose a car: </label>
+    <select name="cars" id="cars" size="3" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="fiat" selected>Fiat</option>
+        <option value="mecedec">Mecedec</option>
+        <option value="toyota">Toyota</option>
+    </select>
+
+    <h2>Textarea</h2>
+    <textarea name="message" id="textarea_1" cols="30" rows="10">The cat was playing in the garden</textarea>
+    <br/>
+    <textarea name="message" id="textarea_2" style="width: 300px; height: 350px">The other text area.</textarea>
+
+    <h2>Button</h2>
+    <button type="button" onclick="alert('Hello World!')">Click me!</button>
+
+    <!-- 
+        <fieldset> element is used to group related data in form
+        <legend> element defines a caption for the <fieldset> element
+     -->
+     <h2>Group related data in form with < fieldset ></h2>
+     <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname" name="fname" id="fname">First name: </label>
+            <input type="text" id="fname" name="fname" value="John">
+            <br/>
+            <br/>
+            <label for="lname" name="lname" id="lname">Last name: </label>
+            <input type="text" id="lname" name="lname" value="Smith">
+            <br/>
+            <br/>
+            <input type="submit" value="Submit">
+        </fieldset>
+     </form>
+
+     <!-- 
+        <datalist> specifies a list of pre-defined options for an <input> element
+      -->
+      <h2>Datalist</h2>
+      <form action="/action_page.php">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Safari"></option>
+        </datalist>
+      </form>
+
+      <!-- 
+        <output> represents the result of a calculation
+    -->
+    <h2> < output > element </h2>
+    <form action="/action_page.php"
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+        <input type="range" id="a" name="a" value="50">100 + 
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br/>
+        <br/>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <h2>Input Type Color</h2>
+    <form>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    </form>
+
+    <h2>Input Type Date</h2>
+    <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday" id="birthday" max="1919-01-01">
+        <br/>
+        <input type="datetime-local" name="localtime" id="localtime">
+        <br/>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br/>
+        <label for="myfile">File: </label>
+        <input type="file" id="myfile" name="myfile">
+    </form>
+
+    <h2>A hidden field</h2>
+    <form action="/action_page.php">
+        <label for="fname" id="fname" name="fname">First name:</label>
+        <br/>
+        <input type="text" id="fname" name="fname">
+        <br/>
+        <br/>
+        <input type="hidden" id="custId" name="custId" value="123456">
+        <input type="submit" value="Submit">
+    </form>
+    <p><strong>Note:</strong>
+        The hidden field is not shown to the user, but the data is sent when the form is submitted.
+    </p>
+
+    <h2>Input Type Month</h2>
+    <form>
+        <label for="bdaymonth">Birthday (month of year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+    </form>
+
+    <h2>Input Type Number</h2>
+    <form>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </form>
+
+    <h2>Input Type Range</h2>
+    <form>
+        <label for="vol"> Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+    </form>
+
+    <h2>Input Type Search</h2>
+    <form>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" name="gsearch" id="gsearch">
+    </form>
+
+    <h2>Input Type Tel</h2>
+    <form>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    </form>
+</body>
+</html>
