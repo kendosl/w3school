@@ -27,5 +27,46 @@
         If you click the "Submit" button, 
         the form-data will be sent to a page called "/action_page.php".
     </p>
+
+    <!-- 
+        input type
+        type="text" - display a single-line text input field
+        type="radio" - display a radio button
+        type="checkbox" - display a checkbox
+        type="submit" - display a submit button
+        type="button" - display a clickable button
+     -->
+     
+     <h2>Choose your favorite Web language:</h2>
+     <h2>Radio Box</h2>
+     <form>
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label>
+        <br/>
+
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label>
+        <br/>
+
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
+        <label for="javascript">JavaScript</label>
+        <br/>
+     </form>
+
+     
+     <h2>Checkboxes</h2>
+     <form>
+        <input type="checkbox" id="vehicle_1" name="vehicle_1" value="Bike" />
+        <label for="vehicle_1">I have a bike</label>
+        <br/>
+
+        <input type="checkbox" id="vehicle_2" name="vehicle_2" value="Car" />
+        <label for="vehicle_2">I have a car</label>
+        <br/>
+
+        <input type="checkbox" id="vehicle_3" name="vehicle_3" value="Boat" />
+        <label for="vehicle_3">I have a boat</label>
+        <br/>
+     </form>
 </body>
 </html>
