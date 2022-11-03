@@ -1,0 +1,11 @@
+div.ex1 {
+    width: 300px;
+    background-color: aqua;
+}
+
+div.ex2 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+}
