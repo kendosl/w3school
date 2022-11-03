@@ -1,0 +1,30 @@
+/* 
+    auto - the browser calculates the margin
+    length - specifies a margin in px, pt, cm, etc
+    % - specifies a margin in % of the width of the containing element
+    inherit - specifies that the margin should be inherited from the parent element
+ */
+p.margin_example {
+    background-color: aqua;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+
+/* shorthand */
+p {
+    margin: 25px 50px 75px 100px;
+}
+
+div {
+    border: 1px solid red;
+    margin-left: 60px;
+}
+
+/* 
+    This example lets the left margin of the < p class="inherit_example"> element be inherited from the parent element (<div>)
+ */
+p.margin_example {
+    margin-left: inherit;
+}
