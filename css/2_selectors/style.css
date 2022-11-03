@@ -1,3 +1,12 @@
+/* 
+The CSS rule below will affect every HTML element on the page
+ */
+
+ * {
+    text-align: center;
+    color: blueviolet;
+ }
+
 p.center {
     color: red;
     text-align: center;
@@ -10,3 +19,17 @@ p.right {
 p.large {
     font-size: 200%;
 }
+
+/* 
+CSS Grouping Selector
+ */
+
+ h1 {
+    text-align: right;
+    color: brown;
+ }
+
+ h2, h3 {
+    text-align: left;
+    font-size: 250%;
+ }
