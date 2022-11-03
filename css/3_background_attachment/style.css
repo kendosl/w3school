@@ -1,0 +1,12 @@
+body {
+    background-image: url("tree.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 300px;
+    background-attachment: fixed;
+}
+
+/* or shorthand */
+body {
+    background: #ffff00 url("tree.jpg") no-repeat right top;
+}
