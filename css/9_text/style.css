@@ -19,3 +19,63 @@ a {
     text-decoration: none;
     color: #008CBA;
 }
+
+p.align-last {
+    text-align-last: right;
+}
+
+p.direction {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+img {
+    background-color: red;
+}
+
+img.a {
+    vertical-align: baseline;
+}
+
+img.b {
+    vertical-align: text-top;
+}
+
+img.c {
+    vertical-align: text-bottom;
+}
+
+img.d {
+    vertical-align: sub;
+}
+
+img.e {
+    vertical-align: super;
+}
+
+h2.decoration_1 {
+    text-decoration-line: overline;
+}
+
+h2.decoration_2 {
+    text-decoration-line: line-through;
+}
+
+h2.decoration_3 {
+    text-decoration-line: underline;
+}
+
+h2.decoration_4 {
+    text-decoration-line: overline underline;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
