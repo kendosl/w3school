@@ -37,3 +37,19 @@
 .f7 {
     font-family: Geneva, Verdana, sans-serif;
 }
+
+.normal {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.small {
+    font-variant: small-caps;
+}
