@@ -1,0 +1,58 @@
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ul.e {
+    list-style-position: outside;
+}
+
+ul.f {
+    list-style-position: inside;
+}
+
+/* Remove default settings */
+ul.e {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Shorthand property */
+ul {
+    list-style: square inside;
+}
+
+.g ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+.g ul {
+    background: #3399ff;
+    padding: 40px;
+}
+
+.g ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+.g ul li {
+    background: #cce5ff;
+    color: darkcyan;
+    margin: 5px;
+}
