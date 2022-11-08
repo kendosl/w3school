@@ -1,0 +1,11 @@
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+h2.hidden {
+    display: none;
+}
