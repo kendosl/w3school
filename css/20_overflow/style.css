@@ -1,0 +1,30 @@
+span {
+    color: red;
+}
+
+div {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+}
+
+div.ex1 {
+    overflow: visible;
+}
+
+div.ex2 {
+    overflow: hidden;
+}
+
+div.ex3 {
+    overflow: scroll;
+}
+
+div.ex4 {
+    overflow: auto;
+}
+
+div.ex5 {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
