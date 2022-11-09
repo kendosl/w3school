@@ -1,0 +1,39 @@
+body {
+    padding: 10px;
+}
+
+/* div {
+    display: inline;
+} */
+
+/* div.box {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    float: right;
+} */
+
+img.box {
+    float: right;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    float: left;
+    padding: 15px;
+    color: white;
+}
+
+.div1 {
+    background: red;
+}
+
+.div2 {
+    background: blue;
+}
+
+.div3 {
+    background: green;
+}
