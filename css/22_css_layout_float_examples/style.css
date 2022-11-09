@@ -28,3 +28,19 @@
     clear: both;
     display: table;
 }
+
+.img-container {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.img {
+    width: 100%;
+}
+
+.clearfix-ex1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
