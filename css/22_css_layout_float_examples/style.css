@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    background: #bbb;
+}
+
+.box2 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    background: #ccc;
+}
+
+.box3 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    background: #ddd;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
