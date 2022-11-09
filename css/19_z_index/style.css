@@ -14,7 +14,7 @@
 
 .gray-box {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     background-color: lightgray;
     height: 600px;
     width: 150px;
@@ -24,10 +24,10 @@
 
 .green-box {
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     background-color: green;
-    width: 55%;
-    height: 30%;
+    width: 75%;
+    height: 60%;
     top: -15px;
     right: -30px;
 }
