@@ -1,0 +1,40 @@
+span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+.nav {
+    background-color: yellow;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
