@@ -37,3 +37,30 @@ div {
 .div3 {
     background: green;
 }
+
+.div4 {
+    color: black;
+    float: left;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.div5 {
+    color: black;
+    padding: 10px;
+    border: 3px solid green;
+}
+
+.div6 {
+    color: black;
+    float: left;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.div7 {
+    color: black;
+    padding: 10px;
+    border: 3px solid green;
+    clear: left;
+}
