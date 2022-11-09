@@ -64,3 +64,26 @@ div {
     border: 3px solid green;
     clear: left;
 }
+
+.div8 {
+    border: 2px solid green;
+    color: black;
+}
+
+.img1 {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.img2 {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.clearfix {
+    border: 2px solid green;
+    color: black;
+    overflow: auto;
+}
