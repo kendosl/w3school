@@ -1,0 +1,7 @@
+.center {
+    margin: auto;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
