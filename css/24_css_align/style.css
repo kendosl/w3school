@@ -10,4 +10,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+}
+
+span {
+    color: red;
+}
+
+.box {
+    position: absolute;
+    right: 0;
+    width: 250px;
+    border: 2px solid green;
+    padding: 10px;
 }
