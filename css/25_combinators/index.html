@@ -21,15 +21,58 @@
     <h2>Descendant Selector</h2>
     <p>The descendant selector matches all elements that are descendants of a specified element.</p>
     <p>The following example selects all < p > elements inside < div > elements:</p>
-
     <div>
         <p>Paragraph 1 is in div</p>
         <p>Paragraph 2 is in div</p>
         <section><p>Paragraph 3 is in div</p></section>
     </div>
-
     <p>Paragraph 4 is not in div.</p>
     <p>Paragraph 5 is not in div.</p>
+
     <hr>
+    <h2>Child Selector (>)</h2>
+    <p>The child selector selects all elements that are the children of a specified element.</p>
+    <p>The following example selects all < p > elements that are children of a < div > element:</p>
+    <div class="div_1">
+        <p>Paragraph 1 is in div 1</p>
+        <p>Paragraph 2 is in div 1</p>
+        <section><p>Paragraph 3 is in div 1 (but also is in section element)</p></section>
+    </div>
+    <p>Paragraph 4 is not in div 1.</p>
+    <p>Paragraph 5 is not in div 1.</p>
+
+    <hr>
+    <h2>Adjacent Sibling Selector (+)</h2>
+    <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+    <p>Sibling elements must have the same parent element, and "adjacent" means "immediately following"</p>
+    <p>The following example selects the first < p > element that are placed immediately after < div > elements:</p>
+    <div class="div_2">
+        <p>Paragraph is in div 2.</p>
+        <p>Paragraph is in div 2.</p>
+    </div>
+    <p>Paragraph is not in div 2. After a div</p>
+    <p>Paragraph is not in div 2. After a div</p>
+
+    <div class="div_2">
+        <p>Paragraph is in div 2.</p>
+        <p>Paragraph is in div 2.</p>
+    </div>
+    <p>Paragraph is not in div 2. After a div</p>
+    <p>Paragraph is not in div 2. After a div</p>
+
+    <hr>
+    <h2>General Sibling Selector (~)</h2>
+    <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+    <p>The following example selects all < p > elements that are next siblings of < div > elements:</p>
+    <div class="div_3">
+        <p>Paragraph is in div 3.</p>
+        <p>Paragraph is in div 3.</p>
+    </div>
+    <p>Paragraph is not in div 3.</p>
+    <code>Some code here</code>
+    <p>Paragraph is not in div 3.</p>
+    <code>Some code here</code>
+    <p>Paragraph is not in div 3.</p>
+
 </body>
 </html>

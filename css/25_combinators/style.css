@@ -3,3 +3,24 @@ div p {
     color: white;
     padding: 5px;
 }
+
+.div_1 > p {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+}
+
+.div_2 p {
+    background-color: white;
+    color: black;
+}
+
+.div_2 + p {
+    background-color: bisque;
+}
+
+.div_3 ~ p {
+    background-color: blueviolet;
+    color: aquamarine;
+    padding: 5px;
+}
