@@ -12,3 +12,22 @@ p.intro::first-letter {
     color: blue;
     font-size: 250%;
 }
+
+.p3::first-letter {
+    color: red;
+    font-size: 250%;
+}
+
+.p3::first-line {
+    color: green;
+    font-size: 150%;
+}
+
+::marker {
+    color: red;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
