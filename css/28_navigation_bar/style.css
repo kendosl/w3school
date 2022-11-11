@@ -35,3 +35,31 @@
     background-color: #555;
     color: white;
 }
+
+.nav_3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav_3 li {
+    float: left;
+}
+
+.nav_3 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_3 li a.active {
+    background-color: #04AA6D;
+}
+
+.nav_3 li a:hover:not(.active) {
+    background-color: #111;
+}
