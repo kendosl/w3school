@@ -1,0 +1,37 @@
+.nav_1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_1 li a {
+    display: block;
+    width: 80px;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.nav_2 {
+    list-style-type: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.nav_2 li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav_2 li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.nav_2 li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
