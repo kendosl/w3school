@@ -1,0 +1,10 @@
+.div_1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.div_1:hover {
+    background-color: purple;
+}
