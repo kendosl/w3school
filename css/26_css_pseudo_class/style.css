@@ -8,3 +8,13 @@
 .div_1:hover {
     background-color: purple;
 }
+
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.div_2:hover p {
+    display: block;
+}
