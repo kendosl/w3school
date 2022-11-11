@@ -18,3 +18,17 @@ p {
 .div_2:hover p {
     display: block;
 }
+
+.p1, .p2 {
+    display: block;
+    background-color: white;
+    padding: 0;
+}
+
+.p1 b:first-child {
+    color: red;
+}
+
+q:lang(no) {
+    quotes: "~" "~";
+}
