@@ -1,0 +1,14 @@
+.p1::first-line {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p2::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+p.intro::first-letter {
+    color: blue;
+    font-size: 250%;
+}
