@@ -76,7 +76,7 @@
     float: left;
 }
 
-.ex1 li a, .dropbtn {
+li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
