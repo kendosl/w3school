@@ -58,3 +58,36 @@
 .dropdown-1:hover .dropbtn-1 {
     background-color: #3e8e41;
 }
+
+.img_thumbnail {
+    width: 100px;
+    height: 50px;
+}
+
+.img_detail {
+    width: 300px;
+    height: 200px;
+}
+
+.dropbtn-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
