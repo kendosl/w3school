@@ -5,3 +5,11 @@ a {
 a[target] {
     background-color: yellow;
 }
+
+a[target="_blank"] {
+    font-size: 150%;
+}
+
+img[title~=flower] {
+    border: 10px solid blue;
+}
