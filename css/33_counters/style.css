@@ -6,3 +6,21 @@ h3::before {
     counter-increment: section;
     content: "Section " counter(section) ": ";
 }
+
+div.ex {
+    counter-reset: subject;
+}
+
+.h1 {
+    counter-reset: subsection;
+}
+
+.h1::before {
+    counter-increment: subject;
+    content: "Section " counter(subject) ": ";
+}
+
+h4::before {
+    counter-increment: subsection;
+    content: counter(subject) "." counter(subsection) " ";
+}
