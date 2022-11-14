@@ -21,3 +21,11 @@ img[title~=flower] {
 [class^=top_1] {
     font-size: 250%;
 }
+
+[class$=test_1] {
+    color: brown;
+}
+
+[class*=ex] {
+    background: yellow;
+}
