@@ -13,3 +13,11 @@ a[target="_blank"] {
 img[title~=flower] {
     border: 10px solid blue;
 }
+
+[class|=top] {
+    background-color: yellow;
+}
+
+[class^=top_1] {
+    font-size: 250%;
+}
