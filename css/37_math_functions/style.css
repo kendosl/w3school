@@ -6,3 +6,15 @@
     background-color: yellow;
     padding: 5px;
 }
+
+#div_2 {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    width: max(50%, 350px);
+    height: 350px;
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
