@@ -1,0 +1,11 @@
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+p.ex1 {
+    text-indent: 20px;
+}
