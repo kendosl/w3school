@@ -2,4 +2,5 @@ body {
     background-image: url("3.jpeg");
     background-repeat: no-repeat;
     background-position: top right;
+    background-attachment: fixed;
 }
