@@ -1,0 +1,15 @@
+ul {
+    list-style-type: square;
+}
+
+.ex1 {
+    list-style-image: url("warning.png");
+}
+
+.ex2 {
+    list-style-type: none;
+}
+
+.ex3 {
+    list-style-type: upper-roman;
+}
