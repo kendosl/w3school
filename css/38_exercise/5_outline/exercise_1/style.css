@@ -1,0 +1,7 @@
+div {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: blue;
+
+    /* outline: 5px dotted red; */
+}
