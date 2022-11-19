@@ -1,0 +1,14 @@
+/*
+Change the color of the first < p > element that is directly after a < div > element, to "red".
+*/
+div + p {
+    color: red;
+}
+
+/*
+Change the color of the <p> elements that are siblings of a <div> element, to "blue".
+*/
+
+.div1 ~ p {
+    color: blue;
+}
