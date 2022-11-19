@@ -1,0 +1,15 @@
+/*
+Change the color of all < p > elements, that are descendants of < div > elements, to "red".
+*/
+
+div p {
+    color: red;
+}
+
+/*
+Change the color of all <p> elements, that are immediate children of <div class="div1"> elements, to "blue".
+*/
+
+.div1 > p {
+    color: blue;
+}
