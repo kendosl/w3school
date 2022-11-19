@@ -1,0 +1,11 @@
+.intro {
+    width: 200px;
+    margin: auto;
+}
+
+.intro1 {
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+}
