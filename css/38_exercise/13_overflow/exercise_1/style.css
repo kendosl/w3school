@@ -1,0 +1,17 @@
+.intro {
+    width: 200px;
+    height: 70px;
+    overflow: scroll;
+}
+
+.intro1 {
+    width: 200px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.intro2 {
+    width: 200px;
+    height: 70px;
+    overflow-x: scroll;
+}
