@@ -1,0 +1,6 @@
+/*
+Set a border for < img > elements that have a title attribute that contains the word blue.
+*/
+img[title~="blue"] {
+    border: 5px solid black
+}
