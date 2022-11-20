@@ -1,3 +1,10 @@
 a[target] {
     background-color: red;
 }
+
+/*
+Set the color to "white" for <a> elements that have a target attribute with the value "_blank".
+*/
+a[target="_blank"] {
+    color: white;
+}
