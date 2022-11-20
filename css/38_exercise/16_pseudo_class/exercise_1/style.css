@@ -1,0 +1,11 @@
+a:hover {
+    background-color: red;
+}
+
+.master:hover {
+    background-color: red;
+}
+
+.div1 p:first-child {
+    background-color: red;
+}
