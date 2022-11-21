@@ -1,0 +1,12 @@
+/* Give the div element an image border. Use the short hand property to define the details of the image border. */
+.div1 {
+    border: 10px solid transparent;
+    border-image: url(border.png) 30 round;
+}
+
+/* The image border needs a border-image-repeat value, insert one of the legal values. */
+.div2 {
+    border-image-source: url(border.png);
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+}
