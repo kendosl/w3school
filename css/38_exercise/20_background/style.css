@@ -1,9 +1,22 @@
 /* Add two background images to the <body> element.
-
 img1.gif and img2.gif.
-
 Make sure that img2.gif is displayed on top of img1.gif. */
 
 body {
-    background-image: url('img2.gif') url('img1.gif');
+    background-image: url('img2.gif'), url('img1.gif');
+}
+
+/* Set the width of the background image to 100px, and the height to 80px. */
+body {
+    background-size: 100px 80px;
+}
+
+/* Position the two background images in each top corner.
+img1.gif at the left and img2.gif at the right. */
+div {
+    width: 350px;
+    height: 200px;
+    background-image: url('image.gif'), url('image.gif');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, right left;
 }
